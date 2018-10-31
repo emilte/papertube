@@ -1,7 +1,7 @@
 # papertube
 Alert system for app idea (Toiletpaper Tube). This project was made as a practise for state machine behaviour and mqtt communication.
 
-In a course at NTNU, groups of students we were supposed to brainstorm a startup idea. My group came up with The Toiletpaper Tube.
+In a course at NTNU (TTM4115 - Design of Reactive Systems 1), groups of students we were supposed to brainstorm a startup idea. My group came up with The Toiletpaper Tube.
 
 Idea:
 - Have a container for toiletpaper rolls in the bathroom.
