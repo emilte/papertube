@@ -44,7 +44,12 @@ class Simulated_Sensor_Monitor():
     """
     def on_message(self, client, userdata, msg):
         #print(msg.topic+" "+str(msg.payload))
-        self.sensor = int(msg.payload)
+        try:
+            n = int(msg.payload)
+            if n in [0,1]:
+                self.sensor = n
+        except:
+            pass
 
     def __init__(self, name="simulated_sensor_monitor", interval=3):
         #print("Creating " + name )
